@@ -8,7 +8,7 @@ const counterElement = document.getElementById('counter');
     // Add a click event listener to the increment button
     incrementButton.addEventListener('click', () => {
       // Display an alert with the current un-incremented value
-      alert(`un-incremented: ${counterValue}`);
+      alert(`un-incremented ${counterValue}`);
 
       // Increment the counter value
       counterValue++;
